@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Service from './Service'
 
 function Home() {
+ 
   return (
-    <div className="bg-gray-100 w-full md:w-4/5 lg:w-3/5 mx-auto">
+   <div>
+     <div className="bg-gray-100 w-full md:w-4/5 lg:w-3/5 mx-auto">
       <div className="flex flex-col md:flex-row">
         <div className="bg-white p-8 md:w-3/5">
           {/* Content for the larger column */}
@@ -23,7 +26,20 @@ function Home() {
           </div>
         </div>
       </div>
+      
+      
     </div>
+    {/* ----------Services------------ */}
+    <div className='mt-5'>
+      <div className='lg:text-3xl sm:text-xl text-white text-center mb-3 '>
+      <h1 >Shadow Property Care Services</h1>
+      </div>
+     
+
+      <Service></Service>
+    </div>
+
+   </div>
   )
 }
 

@@ -10,6 +10,7 @@ import photo from './shadow.jpg';
 import About from './components/About';
 import Service from './components/Service';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App bg-neutral-700 min-h-screen">
@@ -21,7 +22,7 @@ function App() {
       <Route path='/service' element={<Service></Service>}></Route>
       <Route path='/contact' element={<Contact></Contact>}></Route>
     </Routes>
-   
+   <Footer></Footer>
     </div>
   );
 }

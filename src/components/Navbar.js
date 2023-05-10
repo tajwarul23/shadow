@@ -38,9 +38,16 @@ function Navbar() {
         <li><Link to="/service">Service</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <Link className="btn" to="tel:+143-723-39078">Call Now</Link>
       </ul>
     </div>
-    <Link className=""><img src={logo} alt='' height="150px" width="150px"></img></Link>
+    <div className='md:block lg:block sm:mx-auto'>
+      
+    <Link to='/home' ><img  src={logo} alt='' height="200px" width="200px"></img></Link>
+    </div>
+    {/* <div className=''>
+    <Link className="btn lg:hidden md:hidden   p-5" to="tel:+143-723-39078">Call Now</Link>
+    </div> */}
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -51,8 +58,8 @@ function Navbar() {
       <li className='px-3'><Link className='text-white underline-none btn bg-neutral-700'to="/contact">Contact</Link></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <Link className="btn" to="tel:+143-723-39078">Call Now</Link>
+  <div className="navbar-end ">
+    <Link className="btn hidden text-orange-500 font-bold  bg-white  sm:block p-5" to="tel:+143-723-39078">Call Now</Link>
   </div>
 </div>
   )
