@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App bg-neutral-700 min-h-screen">
+    <div className="App bg-myGray min-h-screen">
    <Navbar></Navbar>
     <Routes>
       <Route path='/' element={<Home></Home>}></Route>

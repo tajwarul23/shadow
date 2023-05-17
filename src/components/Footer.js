@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../shadow-removebg-preview.png'
+import logo from '../SealCoat/logo-01.jpg'
 function Footer() {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content">
+    <footer className="footer p-10 bg-myGray text-neutral-content">
   <div>
   <Link to='/home' className=""><img src={logo} alt='' height="150px" width="150px"></img></Link>
-    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+    <p>Shadow Property Care.<br/>Providing reliable service since 2023</p>
   </div> 
   <div>
     <span className="footer-title">Social</span> 
