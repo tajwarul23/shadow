@@ -1,12 +1,12 @@
 import React from 'react'
-import i1 from '../SealCoat/a464e209-f7f6-4e71-ab94-e5b15bab95fc.jpg'
-import i2 from '../SealCoat/image0.jpeg'
-import i3 from '../SealCoat/image1.jpeg'
-import i4 from '../SealCoat/image2.jpeg'
-import i5 from '../SealCoat/image3.jpeg'
-import i6 from '../SealCoat/5dd40e24-85d1-40d5-9a5d-c8ae7da411ab.JPG'
-import i7 from '../SealCoat/62d68ec9-b58f-455c-a2fb-001a276d49a3.JPG'
-import i8 from '../SealCoat/f2be1d73-069c-441d-ade7-56ef11813513.JPG'
+import i1 from '../SealCoat/tinified/s1.JPG'
+import i2 from '../SealCoat/tinified/s2.JPG'
+import i3 from '../SealCoat/tinified/s3.jpg'
+import i4 from '../SealCoat/tinified/s4.JPG'
+import i5 from '../SealCoat/tinified/s5.jpeg'
+import i6 from '../SealCoat/tinified/s6.jpeg'
+import i7 from '../SealCoat/tinified/s7.jpeg'
+import i8 from '../SealCoat/tinified/s8.jpg'
 import Slideshow from './Slideshow';
 function Sealcoat() {
     const images = [
@@ -23,7 +23,7 @@ function Sealcoat() {
           <br />
           Get a free quote today in 2 min by calling us.
           <br />
-          (Starting from $150)
+          (Starting from $99)
         </>
       );
     

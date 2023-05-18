@@ -1,7 +1,7 @@
 import React from 'react'
-import i1 from '../Asphalt/image0.jpeg'
-import i2 from '../Asphalt/image1.jpeg'
-import i3 from '../Asphalt/image2.jpeg'
+import i1 from '../Asphalt/tinified/image0.jpeg'
+import i2 from '../Asphalt/tinified/image1.jpeg'
+import i3 from '../Asphalt/tinified/re.jpg'
 import Slideshow from './Slideshow';
 function Ashphalt() {
   const images = [i1,i2,i3];

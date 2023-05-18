@@ -14,7 +14,7 @@ function Slideshow({ images, title, text }) {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000); // Change slide every 5 seconds
+    }, 6000); // Change slide every 5 seconds
 
     return () => {
       clearInterval(interval); // Clear interval on component unmount

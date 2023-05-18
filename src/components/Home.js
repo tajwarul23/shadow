@@ -33,7 +33,7 @@ function Home() {
     
   </div>
 
-  <div className="mt-10">
+  <div className="mt-8">
     <Service></Service>
   </div>
 </div>
