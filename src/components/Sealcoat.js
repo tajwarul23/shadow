@@ -23,7 +23,7 @@ function Sealcoat() {
           <br />
           Get a free quote today in 2 min by calling us.
           <br />
-          (Starting from $99)
+          <span className='text-black font-bold'>Starting from $99</span>
         </>
       );
     

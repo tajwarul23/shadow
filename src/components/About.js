@@ -1,11 +1,21 @@
 import React from 'react'
 
 function About() {
+  const videoUrl = "https://www.youtube.com/embed/3VquAzaVc58";
+
   return (
-    <div className='text-center  text-white'> 
+    <div className=''>
+      <h1 className='text-4xl text-myOrange text-center'>Welcome to SHADOW Property Care!</h1>
+    <br />
+    <iframe
+      src={videoUrl}
+      title="YouTube Video"
+      allowFullScreen
+      className="w-full "
+      style={{ height: "600px" }}
+    />
     
-   <h1 className='text-4xl text-myOrange text-center'> Welcome to SHADOW property care!</h1><br></br>
-   <p className='text-center text-2xl
+    <p className='text-center text-2xl text-white
    '>
 We are a dynamic sealcoating and asphalt repair company founded by Shafiul Abtahi and Taukir Ahmod. With a passion for construction and a wealth of knowledge gained by studying in construction engineering technician course at GeorgeBrown College, we have embarked on this entrepreneurial journey to provide top-notch services in the sealcoating and asphalt repair industry. <br></br>
 
@@ -22,7 +32,9 @@ We are fully licensed, insured, and compliant with all industry regulations, giv
 <br></br>
 Thank you for considering SHADOW property care for your sealcoating and asphalt repair needs. We look forward to working with you and exceeding your expectations. Contact us today for a free consultation or to schedule a service!
     </p>
-    </div>
+  </div>
+  
+  
   )
 }
 
